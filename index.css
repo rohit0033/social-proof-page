@@ -1,0 +1,150 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+/* .container{
+    max-width: 100%;
+    margin:0 auto;
+} */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.top h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: hsl(300, 90%, 19%);
+}
+
+.top p{
+    font-size: 0.9 rem;
+}
+
+.customer-rating{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.star-rating{
+    margin-right: 0.3rem;
+}
+.rating-1st{
+    margin-right: 1rem;
+}
+.rating-2nd{
+    margin-left: 2rem;
+}
+.rating-3rd{
+    margin-left: 5rem;
+}
+
+.bottom{
+   
+    margin-top: 50px;
+    
+}
+
+.rating-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+   
+    width: 300px;
+    height: 150px;
+    background-color:hsl(302, 38%, 30%) ;
+    margin: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.head img{
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.head h5{
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+}
+.head h6{
+    font-size: 0.6rem;
+    color: hsl(294, 31%, 60%)
+}
+
+.review p{
+    font-size: 0.9rem;
+    color:hsl(0, 0%, 100%);
+    margin-top: 0.6rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+
+
+.card-2{
+    margin-top: 2rem;
+}
+
+.card-3{
+    margin-top: 4rem;
+}
+
+
+
+@media(max-width: 375px){
+    .top h1{
+        font-size:2rem ;
+        margin-top: 1rem;
+        text-align: center;
+
+    }
+    .top p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .rating-2nd{
+        margin-left: 0;
+    }
+    .rating-3rd{
+        margin-left: 0;
+    }
+
+    .customer-rating{
+        justify-content: center;
+    }
+    .rating-card{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
